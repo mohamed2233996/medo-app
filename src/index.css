@@ -11,13 +11,60 @@ code {
     monospace;
 }
 
-.title h1{
-  text-align: center;
+
+.header{
+  position: relative;
+  z-index: 2;
+  background: rgb(0 0 0);
+  padding: 10px;
+  display: flex;
+
+}
+.header .logo{
+  width: 300px;
   font-size: 25px;
+  padding: 8px;
+  color: rgba(0, 128, 255, 0.849);
+  margin: 0;
   font-weight: bold;
 }
 
-.title p{
+.header .links {
+  width: 100%;
+  text-align: right;
+}
+
+.header .links{
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+}
+
+.header .links li{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.header .links li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: inline-block;
+}
+.header .links li a:hover ,
+.header-area .links li a.active{
+  color: rgba(0, 128, 255, 0.849);
+  transition: .6s;
+}
+
+main {
+  padding:70px;
+  margin:70px;
+}
+
+main .titel{
   text-align: center;
-  font-size: 15px;
+  padding: 20px;
+  margin: 21px;
+  font-size: 32px;
+  font-weight: bold
 }

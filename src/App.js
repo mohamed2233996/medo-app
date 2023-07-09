@@ -1,11 +1,14 @@
 
+import Header from './compon/header';
 function App() {
   return (
     <div className="App">
-      <div className="title">
-        <h1>Medo App</h1>
-        <p>start with us</p>
-      </div>
+      <Header />
+      <main>
+        <h2 className="titel">
+          Main Page
+        </h2>
+      </main>
     </div>
   );
 }
