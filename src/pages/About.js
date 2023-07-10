@@ -2,6 +2,7 @@
 import React from 'react';
 
 import Header from '../compon/header';
+import Footer from '../compon/footer'
 
 const About = () => {
     return (
@@ -12,6 +13,7 @@ const About = () => {
                 About Page
             </h2>
             </main>
+            <Footer />
         </>
     );
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../compon/header';
+import Footer from '../compon/footer'
 
 const Gallery = () => {
     return (
@@ -11,6 +12,7 @@ const Gallery = () => {
                 Gallery Page
             </h2>
             </main>
+            <Footer />
         </>
     );
 }

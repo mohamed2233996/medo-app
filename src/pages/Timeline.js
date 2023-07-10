@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../compon/header';
+import Footer from '../compon/footer'
 
 const Timeline = () => {
     return (
@@ -11,6 +12,7 @@ const Timeline = () => {
             This scetion will coming soon,....
         </h2>
         </main>
+        <Footer />
     </>
     );
 }

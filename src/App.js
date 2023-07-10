@@ -1,5 +1,6 @@
 
 import Header from './compon/header';
+import Footer from './compon/footer'
 function App() {
   return (
     <div className="App">
@@ -9,6 +10,7 @@ function App() {
           Main Page
         </h2>
       </main>
+      <Footer />
     </div>
   );
 }
