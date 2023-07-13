@@ -10,6 +10,6 @@ footer p{
 }
 
 footer p span{
-    color: red;
+    color:var(--main-Color--) ;
 
 }

@@ -50,3 +50,29 @@
     background: var(--main-Color--);
     transition: .6s;
 }
+
+@media (max-width:769px) {
+    .header{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header .links {
+        text-align: center;
+    }
+    .header .logo {
+        text-align: center;
+    }
+}
+
+@media (max-width: 577px) {
+    .header .links{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .header .links li{
+        margin: 3px 0;
+    }
+}
